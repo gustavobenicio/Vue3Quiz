@@ -2,8 +2,8 @@
   
     <!-- <img class="p-6 max-w-sm mx-auto" alt="Secret logo" src="./assets/secret-logo.svg"> -->
     <GoogleTranslateSelect
-    default-language-code="pt"
-    default-page-language-code="pt"
+    default-language-code="en"
+    default-page-language-code="en"
     :fetch-browser-language="false"
     trigger="click"
     @select="handleGoogleTranslateSelect"

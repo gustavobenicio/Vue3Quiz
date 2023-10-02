@@ -6,7 +6,7 @@
     <QuizQuestion v-if="question != undefined" :question="question " :answers="answers" @emit-result="result"/>
 
     <div  v-if="question === undefined" class="flex justify-center">
-      Sem mais perguntas  
+      No more Questions  
     </div>
       
 </template>
